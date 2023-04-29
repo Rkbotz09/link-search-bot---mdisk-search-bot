@@ -2,15 +2,15 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.environ.get("API_ID", 12345))
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    API_ID = int(os.environ.get("API_ID", 21973813))
+    API_HASH = os.environ.get("API_HASH", "c578b64ac7af52f363f9e0ebfbc67923")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5880556247:AAG0Q4bf_ZUXY-n36_za2vkx0bcV-x27OW0")
     BOT_SESSION_NAME = os.environ.get("BOT_SESSION_NAME", "LinkSearchBot")
     USER_SESSION_STRING = os.environ.get("USER_SESSION_STRING", "")
-    CHANNEL_ID = int(os.environ.get("CHANNEL_ID", -100))
-    BOT_USERNAME = os.environ.get("BOT_USERNAME")
-    BOT_OWNER = int(os.environ.get("BOT_OWNER"))
-    DATABASE_URL = os.environ.get("DATABASE_URL")
+    CHANNEL_ID = int(os.environ.get("CHANNEL_ID", -1001856402326))
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "iPopcorn_Movie_Bot")
+    BOT_OWNER = int(os.environ.get("BOT_OWNER", 5313004751))
+    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Rishikesh001:Rishikesh001@cluster0.lqncnak.mongodb.net/?retryWrites=true&w=majority")
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
     ABOUT_BOT_TEXT = """<b>This is Link Search Bot.
     
